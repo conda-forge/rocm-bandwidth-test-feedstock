@@ -1,5 +1,5 @@
 {% set name = "rocm-bandwidth-test" %}
-{% set version = "2.7.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/RadeonOpenCompute/rocm_bandwidth_test/archive/roc-{{ version }}.tar.gz
-  sha256: 44435d3c605a202532a366ebe634751eb9b204af8ad7c028189723fd6a207a46
+  sha256: 04564d1a7689c8875b330091c8c83f11f1827a8a8c696d15209b5d3d3c9cda44
 
 build:
   number: 0
